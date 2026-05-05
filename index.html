@@ -1,10 +1,115 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Site</title>
-  </head>
-  <body>
-    <h1>Hello, I'm Olivia </h1>
-    <p>Welcome to my GitHub Pages site.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Olivia's Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px 40px;
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    p {
+      color: #94a3b8;
+      font-size: 1.2rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      border-left: 4px solid #38bdf8;
+      padding-left: 10px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+      transition: transform 0.2s ease, background 0.2s ease;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      background: #334155;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #38bdf8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #64748b;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Hello, I'm Olivia</h1>
+    <p>Welcome to my portfolio</p>
+  </header>
+
+  <div class="container">
+
+    <h2>My Projects</h2>
+
+    <div class="grid">
+
+      <a class="card" href="https://github.com/oselkirk/Spatial-Analysis-Projects">
+        <h3>Spatial Analysis Projects</h3>
+        <p>GIS and spatial data analysis work.</p>
+      </a>
+
+      <a class="card" href="https://github.com/oselkirk/Python-Projects">
+        <h3>Python Projects</h3>
+        <p>General Python programming projects.</p>
+      </a>
+
+      <a class="card" href="https://github.com/oselkirk/Climate-Communication-Pieces">
+        <h3>Climate Communication</h3>
+        <p>Writing and communication pieces on climate topics.</p>
+      </a>
+
+    </div>
+  </div>
+
+  <footer>
+    © 2026 Olivia • Built with GitHub Pages
+  </footer>
+
+</body>
 </html>
