@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Olivia's Portfolio</title>
 
   <style>
@@ -26,7 +24,8 @@
 
     p {
       color: #94a3b8;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
+      line-height: 1.6;
     }
 
     .container {
@@ -36,7 +35,7 @@
     }
 
     h2 {
-      margin-bottom: 20px;
+      margin-top: 50px;
       border-left: 4px solid #38bdf8;
       padding-left: 10px;
     }
@@ -51,10 +50,9 @@
       background: #1e293b;
       padding: 20px;
       border-radius: 12px;
-      transition: transform 0.2s ease, background 0.2s ease;
+      transition: 0.2s;
       text-decoration: none;
       color: inherit;
-      display: block;
     }
 
     .card:hover {
@@ -67,49 +65,76 @@
       color: #38bdf8;
     }
 
-    footer {
-      text-align: center;
-      padding: 30px;
-      color: #64748b;
-      font-size: 0.9rem;
+    a {
+      color: #38bdf8;
     }
   </style>
 </head>
 
 <body>
 
-  <header>
-    <h1>Hello, I'm Olivia</h1>
-    <p>Welcome to my portfolio</p>
-  </header>
+<header>
+  <h1>Olivia Selkirk</h1>
+  <p>MSc Applied Meteorology & Climate | Climate Data Analysis | Atmospheric Dynamics | Climate Communication</p>
+</header>
 
-  <div class="container">
+<div class="container">
 
-    <h2>My Projects</h2>
+  <h2>About Me</h2>
+  <p>I am a climate science graduate with an MSc in Applied Meteorology and Climate from the University of Reading. My work focuses on analysing large-scale atmospheric and oceanic systems using climate model output to explore how regional climate patterns evolve under different Shared Socioeconomic Pathways (SSPs).</p>
 
-    <div class="grid">
+  <p>My Master’s dissertation examined the impacts of an Atlantic Meridional Overturning Circulation (AMOC) collapse on hydroclimate systems in Southern Africa using Python-based climate model analysis.</p>
 
-      <a class="card" href="https://github.com/oselkirk/Spatial-Analysis-Projects">
-        <h3>Spatial Analysis Projects</h3>
-        <p>GIS and spatial data analysis work.</p>
-      </a>
+  <p>I am passionate about making climate science accessible through communication and creative writing.</p>
 
-      <a class="card" href="https://github.com/oselkirk/Python-Projects">
-        <h3>Python Projects</h3>
-        <p>General Python programming projects.</p>
-      </a>
+  <p>I combine Python workflows, geospatial mapping, and climate communication to translate complex environmental data into clear insights.</p>
 
-      <a class="card" href="https://github.com/oselkirk/Climate-Communication-Pieces">
-        <h3>Climate Communication</h3>
-        <p>Writing and communication pieces on climate topics.</p>
-      </a>
+  <h2>Technical Experience</h2>
 
+  <div class="grid">
+
+    <div class="card">
+      <h3>Programming & Analysis</h3>
+      <p>Python • Jupyter • Excel</p>
     </div>
+
+    <div class="card">
+      <h3>Geospatial Tools</h3>
+      <p>ArcGIS Pro • QGIS • OpenIFS</p>
+    </div>
+
+    <div class="card">
+      <h3>Data Skills</h3>
+      <p>Statistical Analysis • Model Interpretation • Data Validation</p>
+    </div>
+
   </div>
 
-  <footer>
-    © 2026 Olivia • Built with GitHub Pages
-  </footer>
+  <h2>Projects</h2>
+
+  <div class="grid">
+
+    <a class="card" href="https://github.com/oselkirk/Spatial-Analysis-Projects">
+      <h3>Spatial Analysis Projects</h3>
+      <p>GIS mapping and spatial environmental analysis.</p>
+    </a>
+
+    <a class="card" href="https://github.com/oselkirk/Python-Projects">
+      <h3>Python Projects</h3>
+      <p>Climate model analysis using Python notebooks.</p>
+    </a>
+
+    <a class="card" href="https://github.com/oselkirk/Climate-Communication-Pieces">
+      <h3>Climate Communication</h3>
+      <p>Science communication and writing portfolio.</p>
+    </a>
+
+  </div>
+
+  <h2>Connect With Me</h2>
+  <p><a href="https://linkedin.com/in/olivia-selkirk">LinkedIn Profile</a></p>
+
+</div>
 
 </body>
 </html>
