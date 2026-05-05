@@ -4,92 +4,90 @@
   <title>Olivia's Portfolio</title>
 
   <style>
-  body {
-    margin: 0;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    background: #f6f5f0;
-    color: #2f3b33;
-  }
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background: #f6f5f0;
+      color: #2f3b33;
+    }
 
-  header {
-    text-align: center;
-    padding: 90px 20px 50px;
-    background: linear-gradient(180deg, #e8efe7, #f6f5f0);
-  }
+    header {
+      text-align: center;
+      padding: 90px 20px 50px;
+      background: linear-gradient(180deg, #e8efe7, #f6f5f0);
+    }
 
-  h1 {
-    font-size: 3rem;
-    margin: 0;
-    letter-spacing: -1px;
-    color: #2f3b33;
-  }
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+      letter-spacing: -1px;
+      color: #2f3b33;
+    }
 
-  header p {
-    color: #556b5d;
-    font-size: 1.1rem;
-    margin-top: 10px;
-  }
+    header p {
+      color: #556b5d;
+      font-size: 1.1rem;
+      margin-top: 10px;
+    }
 
-  .container {
-    max-width: 950px;
-    margin: auto;
-    padding: 40px 20px 80px;
-  }
+    .container {
+      max-width: 950px;
+      margin: auto;
+      padding: 40px 20px 80px;
+    }
 
-  h2 {
-    margin-top: 50px;
-    font-weight: 500;
-    color: #3e4f44;
-    border-left: 3px solid #8aa78f;
-    padding-left: 12px;
-  }
+    h2 {
+      margin-top: 50px;
+      font-weight: 500;
+      color: #3e4f44;
+      border-left: 3px solid #8aa78f;
+      padding-left: 12px;
+    }
 
-  p {
-    line-height: 1.7;
-    color: #3f4d44;
-  }
+    p {
+      line-height: 1.7;
+      color: #3f4d44;
+    }
 
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 18px;
-    margin-top: 20px;
-  }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+      margin-top: 20px;
+    }
 
-  .card {
-    background: #ffffff;
-    border: 1px solid #e3e7e0;
-    border-radius: 14px;
-    padding: 18px;
-    text-decoration: none;
-    color: inherit;
-    transition: all 0.2s ease;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
-  }
+    .card {
+      background: #ffffff;
+      border: 1px solid #e3e7e0;
+      border-radius: 14px;
+      padding: 18px;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.2s ease;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    }
 
-  .card:hover {
-    transform: translateY(-4px);
-    border-color: #b8c7bb;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
-  }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: #b8c7bb;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    }
 
-  .card h3 {
-    margin-top: 0;
-    color: #5c7a66;
-    font-weight: 600;
-  }
+    .card h3 {
+      margin-top: 0;
+      color: #5c7a66;
+      font-weight: 600;
+    }
 
-  a {
-    color: #5c7a66;
-  }
+    a {
+      color: #5c7a66;
+      text-decoration: none;
+    }
 
-  footer {
-    text-align: center;
-    padding: 40px;
-    color: #7a8a80;
-    font-size: 0.9rem;
-  }
-</style>
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 
 <body>
@@ -101,7 +99,9 @@
 
 <div class="container">
 
+  <!-- ABOUT -->
   <h2>About Me</h2>
+
   <p>I am a climate science graduate with an MSc in Applied Meteorology and Climate from the University of Reading. My work focuses on analysing large-scale atmospheric and oceanic systems using climate model output to explore how regional climate patterns evolve under different Shared Socioeconomic Pathways (SSPs).</p>
 
   <p>My Master’s dissertation examined the impacts of an Atlantic Meridional Overturning Circulation (AMOC) collapse on hydroclimate systems in Southern Africa using Python-based climate model analysis.</p>
@@ -110,6 +110,7 @@
 
   <p>I combine Python workflows, geospatial mapping, and climate communication to translate complex environmental data into clear insights.</p>
 
+  <!-- TECHNICAL SKILLS -->
   <h2>Technical Experience</h2>
 
   <div class="grid">
@@ -131,76 +132,72 @@
 
   </div>
 
+  <!-- PROJECTS -->
   <h2>Projects</h2>
 
   <div class="grid">
 
-  <div class="card">
-  <h3>Spatial Analysis Projects</h3>
+    <!-- SPATIAL -->
+    <div class="card">
+      <h3>Spatial Analysis Projects</h3>
 
-  <p>
-    A collection of GIS and spatial analysis projects exploring environmental and geologic datasets. These works demonstrate spatial data visualisation, map design, and geospatial analysis workflows using QGIS and ArcGIS Pro.
-  </p>
+      <p>
+        A collection of GIS and spatial analysis projects exploring environmental and geologic datasets using QGIS and ArcGIS Pro.
+      </p>
 
-  <p><strong>Featured projects:</strong></p>
+      <p><strong>Featured:</strong><br>
+        🗺️ Bedrock geology of Connecticut<br>
+        🧪 Cholera outbreak (1854, Soho London)
+      </p>
 
-  <p>
-    🗺️ <strong>Bedrock Geology of Connecticut</strong><br>
-    GIS mapping of bedrock formations and geologic age distribution using QGIS.
-  </p>
+      <p><strong>Tools:</strong> QGIS • ArcGIS Pro</p>
 
-  <p>
-    <strong>Cholera Outbreak (1854, Soho London)</strong><br>
-    Spatial analysis of cholera mortality patterns highlighting clustering around the Broad Street pump.
-  </p>
+      <a href="https://github.com/oselkirk/Spatial-Analysis-Projects">View Project →</a>
+    </div>
 
-  <p><strong>Tools:</strong> QGIS • ArcGIS Pro</p>
+    <!-- PYTHON -->
+    <div class="card">
+      <h3>Python Climate Analysis</h3>
 
-  <a href="https://github.com/oselkirk/Spatial-Analysis-Projects">View GIS Projects →</a>
-</div>
+      <p>
+        Python-based climate data analysis exploring atmospheric and oceanic variability under different emissions scenarios.
+      </p>
 
-   <div class="card">
-  <h3>Python Climate Analysis Projects</h3>
+      <p><strong>Featured:</strong><br>
+        🌊 AMOC streamfunction analysis (2015–2300)<br>
+        🌍 UKESM temperature variability (SSP1-2.6 vs SSP5-8.5)
+      </p>
 
-  <p>
-    A set of Python-based climate data analysis and visualisation projects exploring large-scale atmospheric and oceanic variability under different emissions scenarios. These projects focus on interpreting climate model outputs using scientific Python workflows.
-  </p>
+      <p><strong>Tools:</strong> Python • pandas • matplotlib</p>
 
-  <p><strong>Featured work:</strong></p>
+      <a href="https://github.com/oselkirk/Python-Projects">View Project →</a>
+    </div>
 
-  <p>
-    <strong>AMOC Streamfunction Analysis</strong><br>
-    Time-series analysis of Atlantic Meridional Overturning Circulation from 2015–2300 under multiple SSP scenarios.
-  </p>
+    <!-- COMMUNICATION -->
+    <div class="card">
+      <h3>Climate Communication</h3>
 
-  <p>
-    <strong>UKESM Temperature Variability</strong><br>
-    Analysis of global mean temperature patterns comparing early and late-century climate states under SSP1-2.6 and SSP5-8.5.
-  </p>
+      <p>
+        A portfolio of climate writing translating complex scientific data into accessible narratives for non-technical audiences.
+      </p>
 
-  <p><strong>Tools:</strong> Python • pandas • matplotlib</p>
+      <p><strong>Featured:</strong><br>
+        ❄️ Polar vortex Arctic air analysis (Dec 2025)
+      </p>
 
-  <a href="https://github.com/oselkirk/Python-Projects">View Analysis Projects →</a>
-</div>
+      <p><strong>Focus:</strong> Climate communication • Atmospheric science</p>
 
-   <div class="card">
-  <h3>Climate Communication Pieces</h3>
+      <a href="https://github.com/oselkirk/Climate-Communication-Pieces">View Writing →</a>
+    </div>
 
-  <p>
-    A portfolio of climate and environmental writing translating complex climate data into accessible insights for non-technical audiences. Includes narrative writing, short-form journalism, and science communication explainers.
-  </p>
+  </div>
 
-  <p><strong>Featured piece:</strong><br>
-  December 2025 — “The Polar Vortex Set to Bring Arctic Air to the United States through December”
-  </p>
-
-  <p><strong>Focus:</strong> Climate communication • Atmospheric phenomena • Science translation</p>
-
-  <a href="https://github.com/oselkirk/Climate-Communication-Pieces">View Writing Portfolio →</a>
-</div>
-
+  <!-- CONTACT -->
   <h2>Connect With Me</h2>
-  <p><a href="https://linkedin.com/in/olivia-selkirk">LinkedIn Profile</a></p>
+
+  <p>
+    <a href="https://linkedin.com/in/olivia-selkirk">LinkedIn Profile</a>
+  </p>
 
 </div>
 
